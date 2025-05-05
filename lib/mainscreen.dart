@@ -20,7 +20,7 @@ class Mainscreen extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // Committee Title
+            
             const Padding(
               padding: EdgeInsets.only(left: 20, bottom: 15),
               child: Text(
@@ -33,7 +33,6 @@ class Mainscreen extends StatelessWidget {
               ),
             ),
 
-            // Category Buttons and Coming Soon
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Container(
@@ -48,7 +47,7 @@ class Mainscreen extends StatelessWidget {
                       height: 60,
                       child: Row(
                         children: [
-                          // Button 1 - परिचय (selected)
+                          
                           Expanded(
                             flex: 1,
                             child: CategoryButton(
@@ -63,7 +62,7 @@ class Mainscreen extends StatelessWidget {
                             thickness: 1,
                           ),
 
-                          // Button 2 - काम, कर्तव्य र अधिकार
+                          
                           Expanded(
                             flex: 2,
                             child: CategoryButton(
@@ -78,7 +77,7 @@ class Mainscreen extends StatelessWidget {
                             thickness: 1,
                           ),
 
-                          // Button 3 - सूचनाहरु
+                          
                           Expanded(
                             flex: 1,
                             child: CategoryButton(
@@ -93,7 +92,7 @@ class Mainscreen extends StatelessWidget {
                             thickness: 1,
                           ),
 
-                          // Button 4 - गतिविधिहरु
+                          
                           Expanded(
                             flex: 1,
                             child: CategoryButton(
@@ -108,7 +107,7 @@ class Mainscreen extends StatelessWidget {
                             thickness: 1,
                           ),
 
-                          // Button 5 - प्रकाशनहरु-डाउनलोड्
+                          
                           Expanded(
                             flex: 1,
                             child: CategoryButton(
@@ -123,7 +122,7 @@ class Mainscreen extends StatelessWidget {
                             thickness: 1,
                           ),
 
-                          // Button 6 - हाजिरी
+                          
                           Expanded(
                             flex: 1,
                             child: CategoryButton(
@@ -158,7 +157,7 @@ class Mainscreen extends StatelessWidget {
               ),
             ),
 
-            // Media Buttons and Coming Soon
+            
             const SizedBox(height: 15),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 15),
@@ -200,7 +199,7 @@ class Mainscreen extends StatelessWidget {
   }
 }
 
-// App Header Widget
+
 class AppHeader extends StatelessWidget {
   const AppHeader({super.key});
 
@@ -246,7 +245,7 @@ class AppHeader extends StatelessWidget {
   }
 }
 
-// Media Button Row Widget
+
 class MediaButtonRow extends StatelessWidget {
   const MediaButtonRow({super.key});
 
