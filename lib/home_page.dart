@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
 
-            // Static image section
+            
             SizedBox(
               height: 200,
               width: double.infinity,
@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
 
-            // Grid menu section
+            
             Expanded(
               child: Container(
                 padding: const EdgeInsets.all(15),
@@ -88,7 +88,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// Simple menu button widget
+
 class MenuButton extends StatelessWidget {
   final IconData icon;
   final String title;
